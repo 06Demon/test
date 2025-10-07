@@ -44,11 +44,6 @@ Four::Four(const Four& other)
     : digits(other.digits), size(other.size) {
 }
 
-Four::Four(Four&& other) noexcept 
-    : digits(std::move(other.digits)), size(other.size) {
-    other.size = 0;
-}
-
 Four::~Four() noexcept {
 }
 
@@ -56,15 +51,6 @@ Four& Four::operator=(const Four& other) {
     if (this != &other) {
         digits = other.digits;
         size = other.size;
-    }
-    return *this;
-}
-
-Four& Four::operator=(Four&& other) noexcept {
-    if (this != &other) {
-        digits = std::move(other.digits);
-        size = other.size;
-        other.size = 0;
     }
     return *this;
 }

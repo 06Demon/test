@@ -22,12 +22,10 @@ public:
     Four(const std::initializer_list<unsigned char>& t);
     Four(const std::string& t);
     Four(const Four& other);
-    Four(Four&& other) noexcept;
     
     virtual ~Four() noexcept;
 
     Four& operator=(const Four& other);
-    Four& operator=(Four&& other) noexcept;
 
     Four add(const Four& other) const;
     Four subtract(const Four& other) const;
