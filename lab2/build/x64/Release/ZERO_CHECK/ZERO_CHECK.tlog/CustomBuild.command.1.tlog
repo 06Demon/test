@@ -1,0 +1,10 @@
+^C:\LOBOVIKOV\PROGRAMMING\LABS\OOP\LAB2\BUILD\CMAKEFILES\C67E2D15AC5E895077D3FD095AE0A7DF\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Lobovikov/Programming/labs/OOP/lab2 -BC:/Lobovikov/Programming/labs/OOP/lab2/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Lobovikov/Programming/labs/OOP/lab2/build/lab2.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Lobovikov\Programming\labs\OOP\lab2\tests\FourTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Lobovikov\Programming\labs\OOP\lab2\src\Four.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Lobovikov\Programming\labs\OOP\lab2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D39F3EFE-A5F4-3645-81D5-83B9C84D337A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
